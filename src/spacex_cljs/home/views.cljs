@@ -47,7 +47,7 @@
     (fn []
       (let [info @(subscribe [:info])]
         [:section.hero.is-dark.is-fullheight
-         {:style {:background "url(../img/falcon-9.webp)"
+         {:style {:background "url(../img/falcon-9.jpg)"
                   :background-position "center center"
                   :background-repeat "no-repeat"
                   :background-attachment "fixed"

@@ -149,7 +149,7 @@
             selected-status @(subscribe [:selected-status])
             filtered-launches (filter-launches launches selected-year selected-status)]
         [:<>
-         [common/header-section :launch "SPACEX LAUNCHES" "falcon-heavy-1.webp"]
+         [common/header-section :launch "SPACEX LAUNCHES" "falcon-heavy-1.jpg"]
          (if launches
            [:div.container
             {:style {:font-family "Ubuntu Mono"

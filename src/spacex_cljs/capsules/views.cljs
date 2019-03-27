@@ -89,7 +89,7 @@
     (fn []
       (let [capsules @(subscribe [:capsules])]
         [:<>
-         [common/header-section :capsule "SPACEX CAPSULES" "capsule.webp"]
+         [common/header-section :capsule "SPACEX CAPSULES" "capsule.jpg"]
          (if capsules
            [:div.container
             {:style {:margin-top "-100px"}}

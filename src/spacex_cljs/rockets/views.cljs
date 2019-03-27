@@ -80,7 +80,7 @@
     (fn []
       (let [rockets @(subscribe [:rockets])]
         [:<>
-         [common/header-section :rocket "SPACEX ROCKETS" "falcon-heavy-3.webp"]
+         [common/header-section :rocket "SPACEX ROCKETS" "falcon-heavy-3.jpg"]
          (if rockets
            [:div.container
             {:style {:margin-top "-100px"}}
