@@ -17,15 +17,6 @@
             [spacex-cljs.capsules.views :refer [capsules]]))
 
 
-;; (defn hook-browser-navigation! []
-;;   (doto (Html5History.)
-;;     (gevents/listen
-;;      EventType/NAVIGATE
-;;      (fn [event]
-;;        (secretary/dispatch! (.-token event))))
-;;     (.setEnabled true)))
-
-
 (defn hook-browser-navigation! []
   (doto (Html5History.)
     (gevents/listen
@@ -33,14 +24,6 @@
      (fn [event]
        (secretary/dispatch! (.-token event))))
     (.setEnabled true)))
-
-
-
-
-;; (defn hook-browser-navigation! []
-;;   (let [h (Html5History.)]
-;;     (gevents/listen h EventType/NAVIGATE #(secretary/dispatch! (.-token %)))
-;;     (doto h (.setEnabled true))))
 
 
 (defn app-routes []

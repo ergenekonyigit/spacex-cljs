@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0187883d-95d3-4bbd-b169-5608c2a54e71/deploy-status)](https://app.netlify.com/sites/spacex-cljs/deploys)
+
 
 ### Development mode
 

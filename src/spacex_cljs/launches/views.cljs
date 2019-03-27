@@ -148,7 +148,6 @@
             selected-year @(subscribe [:selected-year])
             selected-status @(subscribe [:selected-status])
             filtered-launches (filter-launches launches selected-year selected-status)]
-        (js/console.log (str "year: " selected-year " " "status: " selected-status))
         [:<>
          [common/header-section :launch "SPACEX LAUNCHES" "falcon-heavy-1.webp"]
          (if launches
