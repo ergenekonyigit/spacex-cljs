@@ -71,7 +71,7 @@
       {:style {:margin "0px 10px 10px 0px"}}
       "LAUNCH UNSUCCESSFUL"])
    [:a
-    {:href (-> item :links :mission_patch :video_link)
+    {:href (-> item :links :video_link)
      :target "_blank"}
     [:span.tag.is-light.is-medium
      "Watch on YouTube"]]])
